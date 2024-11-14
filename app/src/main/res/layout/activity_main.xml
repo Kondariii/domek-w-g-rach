@@ -55,12 +55,12 @@
         <Button
             android:id="@+id/saveButton"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="ZAPISZ"
+            android:layout_weight="1"
             android:background="?android:attr/selectableItemBackground"
-            android:textColor="#FFFFFF"
-            android:textAllCaps="true" />
+            android:text="ZAPISZ"
+            android:textAllCaps="true"
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
     <TextView
@@ -69,13 +69,14 @@
         android:layout_height="wrap_content"
         android:text="12 polubień"
         android:paddingTop="8dp"
+        android:paddingBottom="8dp"
         android:layout_gravity="end"
         android:textColor="#000000" />
     <View
         android:layout_width="wrap_content"
         android:layout_height="1dp"
         android:background="#808080"
-        android:layout_marginBottom="10dp"
+        android:layout_marginBottom="10dp" />
 
     <TextView
         android:layout_width="wrap_content"

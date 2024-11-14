@@ -5,7 +5,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 likeCount++;
                 updateLikeCount();
-                Toast.makeText(MainActivity.this, "Polubiono!", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -42,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 likeCount--;
                 updateLikeCount();
-                Toast.makeText(MainActivity.this, "Usunięto!", Toast.LENGTH_SHORT).show();
             }
         });
     }
