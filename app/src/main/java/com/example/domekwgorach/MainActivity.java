@@ -44,7 +44,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    // Method to update the like count text
     private void updateLikeCount() {
         likeCountText.setText(likeCount + " polubień");
     }
